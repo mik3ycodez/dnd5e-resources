@@ -1,4 +1,3 @@
-/* eslint-disable no-console */
 /**
  * Name: Michael Harris
  * Date: July 28, 2021
