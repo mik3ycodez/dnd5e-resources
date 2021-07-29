@@ -3,7 +3,9 @@
  * Date: July 28, 2021
  * Section: CSE 154 AD
  *
- * Replace this...
+ * The javaScript for cp3 index.html. Functionality includes AJAX, fetch calls
+ * to dnd5eapi.co, DOM modification for displaying data received from API,
+ * simple error handling and state changes.
  */
 
 "use strict";
