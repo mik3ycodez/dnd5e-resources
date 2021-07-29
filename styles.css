@@ -1,0 +1,134 @@
+/*
+ Name: Michael Harris
+ Date: July 28, 2021
+ Section: CSE 154 AD
+
+ Contains the CSS for cp3 index.html. Color theme includes wheat and darkslategray.
+ Most changes are made to the button designs and layouts as A tags are not
+ used in the nav bar.
+ */
+
+body {
+  justify-content: space-around;
+  margin: auto;
+  width: 95%;
+}
+
+body, nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+button {
+  background-color: inherit;
+  border: none;
+  color: wheat;
+  text-align: left;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+li {
+  text-transform: lowercase;
+}
+
+nav > button {
+  min-width: 120px;
+}
+
+a:visited {
+  color: darkorange;
+}
+
+a:hover, button:hover {
+  background-color: darkslategray;
+}
+
+button:active {
+  color: lavender;
+}
+
+header, footer {
+  width: 100%;
+}
+
+footer {
+  text-align: center;
+}
+
+a, button, footer, main, nav {
+  padding: 10px;
+}
+
+footer, nav {
+  background-color: lightslategray;
+}
+
+a:hover, button:hover, footer, main, nav {
+  border-radius: 10px;
+}
+
+a, button, h1, h2, h3, li {
+  font-family: 'VT323', monospace;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2em;
+}
+
+h3 {
+  font-size: 1.5em;
+}
+
+main {
+  background-color: aliceblue;
+  max-width: 70%;
+}
+
+nav, main {
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+
+nav {
+  align-content: flex-start;
+  max-width: 120px;
+}
+
+footer, nav, main {
+  border: solid 1px black;
+}
+
+button, li, #error-msg {
+  font-size: 1.2em;
+}
+
+p, #error-msg {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+#error-msg {
+  color: darkred;
+}
+
+.option-btn {
+  color: darkslategray;
+}
+
+.option-btn:hover {
+  background-color: wheat;
+}
+
+@media screen and (max-width: 645px) {
+  nav {
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-width: none;
+    width: 99.9%;
+  }
+}
